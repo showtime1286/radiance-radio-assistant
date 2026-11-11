@@ -9,3 +9,5 @@ client.once('ready', () => {
 });
 
 client.login(process.env.TOKEN);
+
+setInterval(() => {}, 1000 * 60 * 60);

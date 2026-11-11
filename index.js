@@ -1,11 +1,11 @@
-const { Client, GatewayIntentBits } = require('discord.js');
+const { Client } = require('discord.js');
 
 const client = new Client({
-  intents: [GatewayIntentBits.Guilds]
+  intents: []
 });
 
 client.once('ready', () => {
-  console.log('Radiance Radio Assistant is online!');
+  console.log('Radiance Radio Assistant is ONLINE!');
 });
 
 client.login(process.env.TOKEN);

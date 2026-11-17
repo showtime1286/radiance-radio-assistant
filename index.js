@@ -16,6 +16,7 @@ client.once('ready', () => {
 });
 
 client.on('messageCreate', message => {
+console.log("MESSAGE:", message.content);
 
   if (message.author.bot) return;
 
